@@ -1,0 +1,203 @@
+/* GENERAL RESPONSIVE*/
+
+@media (max-width: 920px) {
+  header .menu-section nav ul li {
+    margin-right: 15px;
+  }
+
+  .header-wrapper .login-box {
+    width: 135px;
+  }
+
+  .header-wrapper .login-box a,
+  .header-wrapper .login-box img {
+    margin-right: 15px;
+  }
+
+  .footer-wrapper .subscribe {
+    width: 350px;
+  }
+
+  .footer-wrapper .email input {
+    width: 55%;
+  }
+
+  footer {
+    height: 350px;
+  }
+
+  footer .footer-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-wrapper .subscribe {
+    width: 360px;
+    margin-bottom: 40px;
+  }
+
+  .footer-wrapper .email input {
+    width: 60%;
+  }
+}
+
+
+@media (max-width: 770px) {
+  header {
+    height: 80px;
+  }
+
+  .header-wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 25px;
+  }
+
+  header .menu-section nav ul {
+    flex-direction: column;
+  }
+
+  .menu-section {
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 40px 0px;
+    width: 100vw;
+    margin-left: 0px;
+    background-color: var(--bg-header);
+
+    /* SIMIR */
+    display: none;
+  }
+
+  .menu-section nav ul li {
+    margin-bottom: 25px;
+  }
+
+  .hamburguer img {
+    display: block;
+  }
+}
+
+/* GLASES.HTML RESPONSIVE */
+@media (max-width: 920px) {
+  .main-glasses-banner {
+    width: 85%;
+    height: 700px;
+  }
+
+  .glass-banner-right img {
+    width: 350px;
+    margin-top: 100px;
+  }
+
+  .offer-left {
+    width: 400px;
+    height: 400px;
+  }
+
+  .offer-left .price {
+    top: 250px;
+    left: 220px;
+  }
+
+  .offer-right {
+    height: 400px;
+  }
+
+  .offer-right .offer-p {
+    margin-top: 80px;
+    margin-left: 70px;
+  }
+
+  .offer-right button {
+    margin-left: 70px;
+  }
+
+  .stylish img {
+    width: 600px;
+  }
+}
+
+@media (max-width: 770px) {
+  .main-glasses-banner h1 {
+    font-size: 1.9rem;
+    margin-top: 60px;
+  }
+  
+  .main-glasses-banner .m {
+    font-size: 4rem;
+  }
+  .glasses-banner-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .glass-banner-right img {
+    margin-top: 20px;
+  }
+
+  .offer {
+    flex-direction: column;
+  }
+
+  .offer-left {
+    width: 100%;
+    height: 500px;
+  }
+
+  .offer-right {
+    width: 100%;
+    flex: auto;
+    height: 500px;
+  }
+
+  .offer-right .offer-p {
+    margin-top: 150px;
+    margin-left: 100px;
+  }
+
+  .offer-right button {
+    margin-left: 100px;
+  }
+
+  .offer-left .price {
+    top: 320px;
+    left: 350px;
+  }
+  .stylish img {
+    width: 370px;
+  }
+
+}
+
+@media (max-width: 470px){
+  .offer-left .price {
+    top: 340px;
+    left: 250px;
+  }
+
+  .stylish h2 {
+    font-size: 1.9rem;
+  }
+  .stylish .c{
+    font-size: 4rem;
+  }
+  .stylish img{
+    width: 320px;
+  }
+
+  .footer-wrapper .email input {
+    width: 50%;
+  }
+.footer-wrapper .subscribe {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+}
+
+
+/* ABOUT.HTML RESPONSIVE */

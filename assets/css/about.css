@@ -1,0 +1,64 @@
+:root {
+  --white-color: #FFFFFF;
+  --bg-copy: #BCC4F2;
+  --pink-button: #EB27B7;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* height: 800px; */
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  height: 650px;
+}
+
+.about-left h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.about-left .s {
+  font-size: 5.2rem;
+  color: var(--bg-copy);
+}
+
+.about-left .obre {
+  color: var(--bg-copy);
+}
+
+.about-left p {
+  font-size: 1.1rem;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+
+.about-left .more {
+  background-color: var(--pink-button);
+  color: var(--white-color);
+  width: 150px;
+  height: 40px;
+  font-size: 1.1em;
+  margin-bottom: 80px;
+  cursor: pointer;
+}
+
+.about-left .more:hover {
+  background-color: var(--white-color);
+  color: var(--pink-button);
+  border: 1px solid var(--pink-button);
+  transition: .3s ease-in-out;
+}
+
+.about-right img {
+  width: 500px;
+}

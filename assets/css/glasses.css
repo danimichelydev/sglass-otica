@@ -1,0 +1,186 @@
+:root {
+  --bg-header: #1D1D1D;
+  --white-color: #FFFFFF;
+  --color-logo: #D7CFF4;
+  --main-color: #999999;
+  --bg-footer: #141414;
+  --bg-copy: #BCC4F2;
+  --pink-button: #EB27B7;
+}
+
+main {
+  width: 100%;
+  background-color: var(--white-color);
+}
+
+.main-glasses-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.glasses-banner-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-glasses-banner {
+  width: 85%;
+  height: 570px;
+}
+
+.main-glasses-banner h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 80px;
+}
+
+.main-glasses-banner .m {
+  font-size: 5.2rem;
+}
+
+.main-glasses-banner .m,
+.main-glasses-banner .elhor {
+  color: #BCC4F2;
+}
+
+.glass-banner-left p {
+  font-size: 1.1rem;
+  margin-top: 50px;
+}
+
+.glass-banner-left span {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.first {
+  color: #51B9E4;
+}
+
+.glass-banner-right img {
+  margin-top: 30px;
+  width: 450px;
+}
+
+.offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.offer-left {
+  width: 600px;
+  height: 550px;
+  background-image: url(../images/offer-img.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.offer-left .price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  background-color: var(--pink-button);
+  color: var(--white-color);
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 50%;
+  position: absolute;
+  top: 320px;
+  left: 300px;
+}
+
+
+.offer-right {
+  background-color: #BCC4F2;
+  flex: 1;
+  height: 550px;
+}
+
+.offer-right .offer-p {
+  margin-top: 150px;
+  margin-left: 100px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.offer-right p {
+  margin-top: 8px;
+}
+
+.offer-right button {
+  margin-left: 100px;
+  margin-top: 50px;
+  background-color: var(--pink-button);
+  color: var(--white-color);
+  width: 200px;
+  height: 40px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.offer-right button:hover {
+  background-color: #BCC4F2;
+  color: var(--pink-button);
+  border: 1px solid var(--pink-button);
+  transition: .3s ease-in-out;
+
+}
+
+.stylish {
+  margin: auto;
+  text-align: center;
+  width: 85%;
+}
+
+.stylish h2 {
+  font-size: 2.5rem;
+  margin: 70px auto;
+  font-weight: 700;
+}
+
+.stylish .c {
+  font-size: 5.2rem;
+  color: var(--bg-copy);
+}
+
+.stylish .ompre {
+  color: var(--bg-copy);
+}
+
+.stylish .glasses {
+  color: var(--main-color);
+}
+
+.stylish img {
+  width: 800px;
+}
+
+.stylish p {
+  margin: 50px auto;
+  font-size: 1.1rem;
+  line-height: 20px;
+}
+
+.stylish .book-now {
+  background-color: var(--pink-button);
+  color: var(--white-color);
+  width: 150px;
+  height: 40px;
+  font-size: 1.1em;
+  margin-bottom: 80px;
+  cursor: pointer;
+}
+
+.stylish .book-now:hover {
+  background-color: var(--white-color);
+  color: var(--pink-button);
+  border: 1px solid var(--pink-button);
+  transition: .3s ease-in-out;
+}
