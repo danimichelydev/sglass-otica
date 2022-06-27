@@ -207,6 +207,9 @@ footer .footer-wrapper {
   text-align: center;
 }
 
-.copy span {
+.copy a {
   color: var(--pink-button);
+}
+.copy a:hover {
+  color: var(--bg-footer);
 }
