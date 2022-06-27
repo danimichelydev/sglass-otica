@@ -124,10 +124,11 @@
     font-size: 1.9rem;
     margin-top: 60px;
   }
-  
+
   .main-glasses-banner .m {
     font-size: 4rem;
   }
+
   .glasses-banner-content {
     flex-direction: column;
     align-items: center;
@@ -165,13 +166,14 @@
     top: 320px;
     left: 350px;
   }
+
   .stylish img {
     width: 370px;
   }
 
 }
 
-@media (max-width: 470px){
+@media (max-width: 470px) {
   .offer-left .price {
     top: 340px;
     left: 250px;
@@ -180,24 +182,48 @@
   .stylish h2 {
     font-size: 1.9rem;
   }
-  .stylish .c{
+
+  .stylish .c {
     font-size: 4rem;
   }
-  .stylish img{
+
+  .stylish img {
     width: 320px;
   }
 
   .footer-wrapper .email input {
     width: 50%;
   }
-.footer-wrapper .subscribe {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-}
+
+  .footer-wrapper .subscribe {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
 
 }
 
 
 /* ABOUT.HTML RESPONSIVE */
+@media (max-width: 920px) {
+  .about {
+    flex-direction: column;
+    height: 850px
+  }
+}
+
+@media (max-width: 470px) {
+  .about {
+    height: 950px
+  }
+  .about-right img {
+    width: 350px;
+  }
+  .about-left h1 {
+    font-size: 1.9rem;
+  }
+  .about-left .s {
+    font-size: 4rem;
+  }
+}
