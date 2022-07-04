@@ -184,3 +184,86 @@ main {
   border: 1px solid var(--pink-button);
   transition: .3s ease-in-out;
 }
+
+
+/* OUR GLASSES */
+.our-glasses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--bg-copy);
+  width: 100%;
+  /* height: 900px; */
+}
+.our-glasses-wrapper {
+  width: 90%;
+  margin-bottom: 80px;
+}
+
+.our-glasses-title h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 80px auto 60px ;
+  color: #6F6E6E;  
+}
+
+.our-glasses-title h1 .n{
+  font-size: 5.2rem;
+  color: var(--bg-footer);
+}
+
+.our-glasses-title h1 .ossos {
+  color: var(--bg-header);
+}
+
+.our-glasses-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.our-glasses-box .glasses-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+
+  background-color: var(--white-color);
+  
+}
+
+.our-glasses-box .glasses-boxes img {
+  margin: 60px auto;
+}
+
+.our-glasses-box .glasses-boxes h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--bg-header);
+}
+
+.our-glasses-box .glasses-boxes .buy-now {
+  margin-bottom: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  color: var(--bg-copy);
+  font-size: .9rem;
+  text-decoration: underline;
+  font-family:  'Poppins', sans-serif;
+}
+
+.button-glasses-buy button{
+  display: block;
+  margin: 80px auto auto auto;
+  background-color: var(--pink-button);
+  color: var(--white-color);
+  width: 150px;
+  height: 40px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
