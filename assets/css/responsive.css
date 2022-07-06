@@ -1,4 +1,11 @@
 /* GENERAL RESPONSIVE*/
+@media (max-width: 1100px){
+  .our-glasses-box {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+  
+}
+
 
 @media (max-width: 920px) {
   header .menu-section nav ul li {
@@ -72,6 +79,10 @@
 
   .hamburguer img {
     display: block;
+  }
+
+  .our-glasses-box {
+    grid-template-columns: repeat(2, 1fr); 
   }
 }
 
@@ -225,3 +236,42 @@
     font-size: 4rem;
   }
 }
+
+
+/* GLASSES RESPONSIVE */
+@media (max-width: 1100px){
+  .our-glasses-box {
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+  }
+}
+
+@media (max-width: 770px) {
+  .our-glasses-wrapper {
+    width: 85%;
+  }
+  .our-glasses-box {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 40px;
+  }
+  .our-glasses-title h1 {
+    font-size: 1.9rem;
+    margin-top: 60px;
+  }
+  .our-glasses-title h1 .n{
+    font-size: 4rem;
+  }
+
+}
+
+@media (max-width: 550px) {
+  .our-glasses-box {
+    grid-template-columns: 1fr; 
+    gap: 60px;
+    margin-left: calc(50% - 150px);
+  }
+  
+
+}
+
+
